@@ -1,0 +1,49 @@
+p {
+  font-family: Lato;
+  color: #6c757d;
+}
+option, span
+{
+    color: #6c757d;
+}
+h1
+{
+    text-align: center;
+    font-family: verdana;
+}
+
+/** {
+  box-sizing: border-box;
+}*/
+.ip1, .ip2, .Desc, .Medicine, #noDays, #selectFollow, .btns
+{
+    padding:10px;
+    background-color: #f6f6f6;
+    overflow: hidden;
+    width:45%;
+    margin: auto;
+}
+
+     div {
+           /*padding: 10px;
+           background-color: #f6f6f6;*/
+           overflow: hidden;
+       }
+     input[type=text], textarea, select {
+           font: 17px Calibri;
+           width: 100%;
+           padding: 12px;
+           border: 1px solid black;
+           border-radius: 4px;
+       }
+       input[type=button]{ 
+           font: 17px Calibri;
+           width: auto;
+           float: right;
+           cursor: pointer;
+           padding: 7px;
+       }
+.Medicine
+{
+  display: flex;
+}
